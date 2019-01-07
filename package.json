@@ -43,6 +43,11 @@
     "subjectPattern": ".+",
     "subjectPatternErrorMsg": "Subject does not match subject pattern!"
   },
+  "prettier": {
+    "singleQuote": false,
+    "tabWidth": 4,
+    "useTabs": true
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog-components"

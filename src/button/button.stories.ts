@@ -24,7 +24,7 @@ storiesOf("Button", module)
 			<br><br>
 			<button ibmButton="danger" [size]="size">A danger button</button>
 			<br><br>
-			<button ibmButton="danger--primary" [size]="size">A primary danger button</button>
+			<button ibmButton="dangerPrimary" [size]="size">A primary danger button</button>
 		`,
 		props: {
 			size: select("Size of the buttons", ["normal", "sm"], "normal")
